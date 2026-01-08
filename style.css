@@ -1,3 +1,84 @@
-body{
-    background-color: bisque;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* shared sytle */
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+p{
+    font-size: 16px;
+    color: #627382;
+    text-align: center;
+}
+.btn{
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    color: white;
+    padding: 0 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #4fb87b;
+    box-shadow: 5px 5px 5px grey;
+}
+.btn-play{
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 44px;
+    color: white;
+    padding: 0 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-play:hover{
+    background-color: #4fb87b;
+    box-shadow: 5px 5px 5px grey;
+}
+
+/* main style */
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 20px;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#banner{
+    background: url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner-content{
+    max-width: 1360px;
+    width: 85%;
+    text-align: center;
+    padding: 115px 0;
+    
+}
+.p1{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: 229px;
+    
 }
