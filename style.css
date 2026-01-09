@@ -68,7 +68,6 @@
     background: url(assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .banner-content {
@@ -106,4 +105,59 @@
     color: white;
     text-align: center;
     margin: 16px;
+}
+
+#notes-container {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#notes-container h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+
+#notes-container p {
+    line-height: 20px;
+    color: #627382;
+    font-size: 16px;
+}
+
+.notes {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    background-color: #fff;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    padding: auto 0;
+    height: 300px;
+    width: 300px;
+    align-content: center;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    background: #ff4d4d;
+    color: #fff;
+    border-radius: 50%;
+    
+}
+.notes h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin:20px auto ;
+}
+.notes p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 30px;
 }
