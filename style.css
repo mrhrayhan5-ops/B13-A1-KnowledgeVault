@@ -160,14 +160,12 @@
 }
 
 .icon {
-    width: 60px;
-    height: 60px;
+    width: 64px;
+    height: 64px;
     background: #ff4d4d;
     color: #fff;
     border-radius: 50%;
-
 }
-
 .notes h3 {
     font-size: 24px;
     font-weight: 600;
