@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* shared sytle */
 
 .inter-font {
@@ -10,12 +11,8 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
-p{
-    font-size: 16px;
-    color: #627382;
-    text-align: center;
-}
-.btn{
+
+.btn {
     background-color: #469165;
     font-size: 16px;
     font-weight: 500;
@@ -26,11 +23,13 @@ p{
     padding: 0 16px;
     cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #4fb87b;
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 5px 5px 10px grey;
 }
-.btn-play{
+
+.btn-play {
     background-color: transparent;
     font-size: 16px;
     font-weight: 500;
@@ -42,43 +41,69 @@ p{
     text-align: center;
     cursor: pointer;
 }
-.btn-play:hover{
+
+.btn-play:hover {
     background-color: #4fb87b;
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 5px 5px 10px grey;
 }
 
 /* main style */
 
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    margin: 20px;
+    align-items: center;
+    margin: 15px;
 }
-.menu ul{
+
+.menu ul {
     list-style-type: none;
     display: flex;
     gap: 32px;
     font-weight: 500;
     cursor: pointer;
 }
-#banner{
+
+#banner {
     background: url(assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
-.banner-content{
+
+.banner-content {
     max-width: 1360px;
     width: 85%;
-    text-align: center;
     padding: 115px 0;
-    
+    text-align: center;
 }
-.p1{
+
+.banner-content h6 {
     background-color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 25px;
     width: 229px;
-    
+    margin: 0 auto;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 12px;
+}
+
+.banner-content h1 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    color: white;
+    margin-top: 16px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    margin: 16px;
 }
