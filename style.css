@@ -22,6 +22,7 @@
     color: white;
     padding: 0 16px;
     cursor: pointer;
+    margin-bottom: 16px;
 }
 
 .btn:hover {
@@ -46,7 +47,13 @@
     background-color: #4fb87b;
     box-shadow: 5px 5px 10px grey;
 }
-
+.container{
+    max-width: 1360;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
 /* main style */
 
 .nav-container {
@@ -149,15 +156,85 @@
     background: #ff4d4d;
     color: #fff;
     border-radius: 50%;
-    
+
 }
-.notes h3{
+
+.notes h3 {
     font-size: 24px;
     font-weight: 600;
-    margin:20px auto ;
+    margin: 20px auto;
 }
-.notes p{
+
+.notes p {
     font-size: 16px;
     color: #627382;
     line-height: 30px;
 }
+
+#second-brain {
+    margin: 0 auto;
+    padding: 120px;
+
+}
+
+.second-brain-container {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.brain {
+    height: 600px;
+    width: 600px;
+    border-radius: 12px;
+}
+
+.solution h6 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+
+.solution h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.decription {
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.check p{
+    margin-bottom: 20px;
+}
+
+#early-access{
+    border-radius: 15px;
+    width: 85%;
+    max-width: 1360px;
+    background-color: #F7F6F2;
+    padding: 40px 80px;
+    margin: 130px auto;
+}
+.access-contant{
+    margin: 0 auto;
+    text-align: center;
+}
+.access-contant h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.access-contant p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
